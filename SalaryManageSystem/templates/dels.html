@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form method="POST">
+    {% csrf_token %}
+    <td>请输入要删除的id</td>
+    <input type="text" name="id" placeholder="输入id"/>
+    <input type="submit" value="提交" style="font-family:黑体; font-size:15px">
+</form>
+</body>
+</html>

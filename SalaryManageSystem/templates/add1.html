@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<td>输入以下信息</td>
+<form method="POST">
+    {% csrf_token %}
+    <input type="text" name="id" placeholder="输入id"/>
+    <input type="text" name="name" placeholder="输入名字"/>
+    <input type="text" name="sex" placeholder="输入性别"/>
+    <input type="text" name="year" placeholder="输入工龄"/>
+    <input type="text" name="job" placeholder="输入职务"/>
+
+    <input type="submit" value="提交" style="font-family:黑体; font-size:15px">
+</form>
+
+
+</body>
+</html>
