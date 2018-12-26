@@ -1,34 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d34ad41e-f7de-481a-8d41-fedab8256c96" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/SalaryManageSystem/templates/change_ps.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SalaryManageSystem/templates/del_people.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SalaryManageSystem/templates/insert_people.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SalaryManageSystem/templates/insert_salary.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SalaryManageSystem/templates/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SalaryManageSystem/templates/login_error.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SalaryManageSystem/templates/main.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SalaryManageSystem/templates/register.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SalaryManageSystem/templates/show_every_people.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SalaryManageSystem/templates/show_every_salary.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SalaryManageSystem/templates/update_people.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SalaryManageSystem/templates/update_salary.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/76ca9952-aa09-4166-83d1-861947c5b36b.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SalaryManageSystem/SalaryManageSystem/testdb.py" beforeDir="false" afterPath="$PROJECT_DIR$/SalaryManageSystem/SalaryManageSystem/testdb.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SalaryManageSystem/SalaryManageSystem/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/SalaryManageSystem/SalaryManageSystem/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SalaryManageSystem/SalaryManageSystem/view.py" beforeDir="false" afterPath="$PROJECT_DIR$/SalaryManageSystem/SalaryManageSystem/view.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SalaryManageSystem/app/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SalaryManageSystem/app/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/SalaryManageSystem/app/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SalaryManageSystem/templates/add2.html" beforeDir="false" afterPath="$PROJECT_DIR$/SalaryManageSystem/templates/add2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SalaryManageSystem/templates/edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/SalaryManageSystem/templates/edit.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SalaryManageSystem/templates/find.html" beforeDir="false" afterPath="$PROJECT_DIR$/SalaryManageSystem/templates/find.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SalaryManageSystem/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/SalaryManageSystem/templates/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SalaryManageSystem/templates/succeed.html" beforeDir="false" afterPath="$PROJECT_DIR$/SalaryManageSystem/templates/succeed.html" afterDir="false" />
-    </list>
+    <list default="true" id="d34ad41e-f7de-481a-8d41-fedab8256c96" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -260,7 +233,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="3" />
     <option name="y" value="57" />
     <option name="width" value="1890" />
@@ -415,15 +388,15 @@
       <workItem from="1545626081798" duration="17802000" />
       <workItem from="1545652418182" duration="14696000" />
       <workItem from="1545698125234" duration="36319000" />
-      <workItem from="1545786513206" duration="4807000" />
+      <workItem from="1545786513206" duration="5222000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="76044000" />
+    <option name="totallyTimeSpent" value="76459000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1295" height="735" extended-state="7" />
+    <frame x="-7" y="-7" width="1295" height="735" extended-state="6" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20129345" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
