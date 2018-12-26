@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>main page</title>
+		<link rel="stylesheet" href="http://static.runoob.com/assets/foundation-icons/foundation-icons.css">
+	</head>
+    <script type="text/javascript">
+        var phoneWidth =  parseInt(window.screen.width);
+        var phoneScale = phoneWidth/640;
+        var ua = navigator.userAgent;
+        if (/Android (\d+\.\d+)/.test(ua)){
+            var version = parseFloat(RegExp.$1);
+            if(version>2.3){
+                document.write('<meta name="viewport" content="width=640, minimum-scale = '+phoneScale+', maximum-scale = '+phoneScale+', target-densitydpi=device-dpi">');
+            }else{
+                document.write('<meta name="viewport" content="width=640, target-densitydpi=device-dpi">');
+            }
+        } else {
+            document.write('<meta name="viewport" content="width=640, user-scalable=no, target-densitydpi=device-dpi">');
+        }
+</script>
+	<body>
+
+            <form method="post">
+            <p align="center" style="font-family:黑体; font-size:25px; color:hsla(0,0%,0%,1.00)">工资详情   <a href="/show_ever_salary/" style="font-size: 30px">&#8634 </a></p>
+
+            </form>
+    <body>
+
+        <form method="post" >
+            {% csrf_token %}
+        <p align="center">
+         <input type="text" name="search" style="font-size:24px">
+            <input type="submit" value="搜索" style="font-size:24px; font-family:alexa-std">
+        </p>
+        </form>
+    </body>
+<table  align="center" border="1" style="font-size: 30px">
+         <tr align="center">
+            <th>ID</th>
+          	<th>姓名</th>
+             <th>基本工资</th>
+            <th>奖金</th>
+             <th>罚款</th>
+          	<th>加班费</th>
+        </tr>
+        {% for salary in salary_list %}
+        <td colspan="1">{{salary.id}}</td>
+        <td colspan="1">{{salary.name}}</td>
+        <td colspan="1">{{salary.salary}}</td>
+        <td colspan="1">{{salary.Bonus}}</td>
+        <td colspan="1">{{salary.fakuan}}</td>
+        <td colspan="1">{{salary.Overtime_pay}}</td>
+        <form  method="get" >
+            <td class="gray" align="center">
+                <a href="/update_salary/?id={{salary.id}}" >更新</a>
+            </td>
+        </form>
+        </tr>
+
+       {% endfor %}
+       </table>
+
+<div align="center" style="font-size:50px;position: absolute;top:25px;left: 35px "><a href="/main/"><i class="fi-home"></i></a></div>
+	</body>
+<style>
+
+    body{
+        background: #b4bad2;
+        color: #fffce1;
+        font-weight: 400;
+        font-family: 'Raleway', Arial, sans-serif;
+        text-align: center;
+    }
+</style>
+</html>

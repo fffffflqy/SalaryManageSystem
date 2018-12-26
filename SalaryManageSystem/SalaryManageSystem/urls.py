@@ -19,16 +19,23 @@ from . import view, testdb
 
 
 urlpatterns = [
-    path('', view.index),
+    path('', view.login),
     path('admit/', admin.site.urls),
     path('hello/', view.hello),
     path('testdb/', testdb.testdb),
+    path('login/', view.login),
     path('test/', view.test),
-    path('index/', view.index, name ='index'),
-    path('add1/', view.add1, name='add1'),
-    path('add2/', view.add2, name='add2'),
+    path('main/', view.main, name='main'),
     path('dels/', view.dels, name='del'),
     path('find/', view.find, name='find'),
     path('print/', view.print, name='print'),
-    path('edit/', view.edit, name='edit')
+    path('show_every_people/', view.show_people),
+    path('show_every_salary/', view.show_salary),
+    path('update_people/', view.update_people),
+    path('update_salary/', view.update_salary),
+    path('insert_people/', view.insert_people),
+    path('del_people/', view.dels),
+    path('insert_salary/', view.insert_salary),
+    path('register/', view.register),
+    path('change_ps/', view.change_ps)
 ]

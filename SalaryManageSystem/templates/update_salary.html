@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>更新员工</title>
+
+	</head>
+<script type="text/javascript">
+        var phoneWidth =  parseInt(window.screen.width);
+        var phoneScale = phoneWidth/640;
+        var ua = navigator.userAgent;
+        if (/Android (\d+\.\d+)/.test(ua)){
+            var version = parseFloat(RegExp.$1);
+            if(version>2.3){
+                document.write('<meta name="viewport" content="width=640, minimum-scale = '+phoneScale+', maximum-scale = '+phoneScale+', target-densitydpi=device-dpi">');
+            }else{
+                document.write('<meta name="viewport" content="width=640, target-densitydpi=device-dpi">');
+            }
+        } else {
+            document.write('<meta name="viewport" content="width=640, user-scalable=no, target-densitydpi=device-dpi">');
+        }
+</script>
+
+<p align="center" style="font-family:黑体; font-size:25px">职员信息修改</p>
+<form method="post">
+    {% csrf_token %}
+<table border=0 align="center"; style="font-family:仿宋; font-size:25px">
+
+<th>姓名</th>
+            <td class="gray"><input name="name" type="text" placeholder="{{people.name}}" class="mm"></td>
+            </tr>
+
+            <th>基本工资</th>
+           <td class="gray"><input name="salary" type="text" placeholder="{{people.year}}" class="mm"></td>
+        </tr>
+        <tr>
+            <th>奖金</th>
+            <td class="gray"><input name="Bonus" type="text" placeholder="{{people.job}}" class="mm"></td>
+              </tr>
+        <tr>
+            <th>罚款</th>
+            <td class="gray"><input name="fakuan" type="text" placeholder="{{people.job}}" class="mm"></td>
+              </tr>
+            <tr>
+            <th>加班费</th>
+            <td class="gray"><input name="Overtime_pay" type="text" placeholder="{{people.job}}" class="mm"></td>
+              </tr>
+
+</table>
+<p align="center" >
+    <td class="gray" ><input type="submit" value="保存" style="font-family:黑体; font-size:15px"><a href="/main/"><input type="reset" value="重填" style="font-family:黑体; font-size:15px"></a></td>
+</p>
+</form>
+</body>
+</html>

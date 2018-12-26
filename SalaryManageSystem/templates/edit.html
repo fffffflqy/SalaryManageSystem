@@ -6,5 +6,12 @@
 </head>
 <body>
 
+<form method="POST">
+    {% csrf_token %}
+    <input type="text" name="id" placeholder="输入需要编辑的id"/>
+    <a href="/index">修改People表</a>
+    <a href="/index">修改salary表</a>
+</form>
+
 </body>
 </html>
