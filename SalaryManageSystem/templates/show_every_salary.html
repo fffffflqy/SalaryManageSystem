@@ -46,6 +46,7 @@
             <th>奖金</th>
              <th>罚款</th>
           	<th>加班费</th>
+             <th>备注</th>
         </tr>
         {% for salary in salary_list %}
         <td colspan="1">{{salary.id}}</td>
@@ -54,6 +55,11 @@
         <td colspan="1">{{salary.Bonus}}</td>
         <td colspan="1">{{salary.fakuan}}</td>
         <td colspan="1">{{salary.Overtime_pay}}</td>
+            {% if salary.note is None%}
+        <td colspan="1"></td>
+            {% else %}
+        <td colspan="1">{{salary.note}}</td>
+            {% endif %}
         <form  method="get" >
             <td class="gray" align="center">
                 <a href="/update_salary/?id={{salary.id}}" >更新</a>

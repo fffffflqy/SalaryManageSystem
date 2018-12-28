@@ -27,26 +27,31 @@
 <form method="post">
     {% csrf_token %}
 <table border=0 align="center"; style="font-family:仿宋; font-size:25px">
-
+        {% for salary in salary_list %}
 <th>姓名</th>
-            <td class="gray"><input name="name" type="text" placeholder="{{people.name}}" class="mm"></td>
+            <td class="gray"><input name="name" type="text" placeholder="{{salary.name}}" class="mm"></td>
             </tr>
 
             <th>基本工资</th>
-           <td class="gray"><input name="salary" type="text" placeholder="{{people.year}}" class="mm"></td>
+           <td class="gray"><input name="salary" type="text" placeholder="{{salary.salary}}" class="mm"></td>
         </tr>
         <tr>
             <th>奖金</th>
-            <td class="gray"><input name="Bonus" type="text" placeholder="{{people.job}}" class="mm"></td>
+            <td class="gray"><input name="Bonus" type="text" placeholder="{{salary.Bonus}}" class="mm"></td>
               </tr>
         <tr>
             <th>罚款</th>
-            <td class="gray"><input name="fakuan" type="text" placeholder="{{people.job}}" class="mm"></td>
+            <td class="gray"><input name="fakuan" type="text" placeholder="{{salary.fakuan}}" class="mm"></td>
               </tr>
             <tr>
             <th>加班费</th>
-            <td class="gray"><input name="Overtime_pay" type="text" placeholder="{{people.job}}" class="mm"></td>
+            <td class="gray"><input name="Overtime_pay" type="text" placeholder="{{salary.Overtime_pay}}" class="mm"></td>
               </tr>
+            <tr>
+            <th>备注</th>
+            <td class="gray"><input name="note" type="text" placeholder="{{salary.note}}" class="mm"></td>
+              </tr>
+    {% endfor %}
 
 </table>
 <p align="center" >

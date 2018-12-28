@@ -1,7 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d34ad41e-f7de-481a-8d41-fedab8256c96" name="Default Changelist" comment="" />
+    <list default="true" id="d34ad41e-f7de-481a-8d41-fedab8256c96" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/SalaryManageSystem/templates/pay.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/c2e786cf-3230-4673-9cde-b02f16f3cea4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SalaryManageSystem/SalaryManageSystem/testdb.py" beforeDir="false" afterPath="$PROJECT_DIR$/SalaryManageSystem/SalaryManageSystem/testdb.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SalaryManageSystem/SalaryManageSystem/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/SalaryManageSystem/SalaryManageSystem/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SalaryManageSystem/SalaryManageSystem/view.py" beforeDir="false" afterPath="$PROJECT_DIR$/SalaryManageSystem/SalaryManageSystem/view.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SalaryManageSystem/app/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SalaryManageSystem/app/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/SalaryManageSystem/app/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SalaryManageSystem/templates/insert_people.html" beforeDir="false" afterPath="$PROJECT_DIR$/SalaryManageSystem/templates/insert_people.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SalaryManageSystem/templates/insert_salary.html" beforeDir="false" afterPath="$PROJECT_DIR$/SalaryManageSystem/templates/insert_salary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SalaryManageSystem/templates/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/SalaryManageSystem/templates/main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SalaryManageSystem/templates/show_every_people.html" beforeDir="false" afterPath="$PROJECT_DIR$/SalaryManageSystem/templates/show_every_people.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SalaryManageSystem/templates/show_every_salary.html" beforeDir="false" afterPath="$PROJECT_DIR$/SalaryManageSystem/templates/show_every_salary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SalaryManageSystem/templates/succeed.html" beforeDir="false" afterPath="$PROJECT_DIR$/SalaryManageSystem/templates/succeed.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SalaryManageSystem/templates/update_people.html" beforeDir="false" afterPath="$PROJECT_DIR$/SalaryManageSystem/templates/update_people.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SalaryManageSystem/templates/update_salary.html" beforeDir="false" afterPath="$PROJECT_DIR$/SalaryManageSystem/templates/update_salary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SalaryManageSystem/数据库表单设计.docx" beforeDir="false" afterPath="$PROJECT_DIR$/SalaryManageSystem/数据库表单设计.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SalaryManageSystem/新建 Microsoft Excel 工作表.xlsx" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -9,8 +30,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/$testdb.coverage" NAME="testdb Coverage Results" MODIFIED="1545631110634" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SalaryManageSystem/SalaryManageSystem" />
+    <SUITE FILE_PATH="coverage/$test_process.coverage" NAME="test_process Coverage Results" MODIFIED="1545895540848" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../cf/cf/get_ip" />
+    <SUITE FILE_PATH="coverage/$Get_proxy.coverage" NAME="Get_proxy Coverage Results" MODIFIED="1545893268882" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../cf/cf/get_ip" />
+    <SUITE FILE_PATH="coverage/$test.coverage" NAME="test Coverage Results" MODIFIED="1545831832965" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SalaryManageSystem" />
+    <SUITE FILE_PATH="coverage/$input.coverage" NAME="input Coverage Results" MODIFIED="1545832580529" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SalaryManageSystem/SalaryManageSystem" />
     <SUITE FILE_PATH="coverage/$manage.coverage" NAME="manage Coverage Results" MODIFIED="1545729693624" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SalaryManageSystem" />
+    <SUITE FILE_PATH="coverage/$testdb.coverage" NAME="testdb Coverage Results" MODIFIED="1545832577030" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SalaryManageSystem/SalaryManageSystem" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -68,66 +93,68 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SalaryManageSystem/SalaryManageSystem/view.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="329">
-              <caret line="131" column="24" lean-forward="true" selection-start-line="131" selection-start-column="24" selection-end-line="131" selection-end-column="24" />
+            <state relative-caret-position="2401">
+              <caret line="183" column="39" lean-forward="true" selection-start-line="183" selection-start-column="39" selection-end-line="183" selection-end-column="39" />
               <folding>
                 <element signature="e#24#60#0" expanded="true" />
+                <element signature="e#433#1123#0" />
+                <element signature="e#1148#1330#0" />
+                <element signature="e#2843#3811#0" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SalaryManageSystem/templates/update_salary.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="47" column="54" selection-start-line="47" selection-start-column="54" selection-end-line="47" selection-end-column="54" />
-              <folding>
-                <element signature="n#style#0;n#table#0;n#form#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SalaryManageSystem/__init__.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="das://c2e786cf-3230-4673-9cde-b02f16f3cea4/schema/lqy/table/app_people">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/SalaryManageSystem/templates/insert_salary.html">
+        <entry file="file://$USER_HOME$/Desktop/uwsgi-2.0.17.1/uwsgiconfig.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="94" column="54" selection-start-line="94" selection-start-column="54" selection-end-line="94" selection-end-column="54" />
+            <state relative-caret-position="-154">
+              <caret line="7" column="30" lean-forward="true" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SalaryManageSystem/templates/show_every_salary.html">
+        <entry file="file://$PROJECT_DIR$/SalaryManageSystem/SalaryManageSystem/input_csv.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="617">
-              <caret line="58" column="39" selection-start-line="58" selection-start-column="39" selection-end-line="58" selection-end-column="39" />
+            <state relative-caret-position="418">
+              <caret line="21" column="45" selection-start-line="21" selection-start-column="45" selection-end-line="21" selection-end-column="45" />
               <folding>
-                <element signature="n#style#0;n#p#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#23#33#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="das://c2e786cf-3230-4673-9cde-b02f16f3cea4/schema/lqy/table/app_salary">
+        <entry file="file://$PROJECT_DIR$/SalaryManageSystem/SalaryManageSystem/testdb.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="44">
+              <caret line="2" column="33" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SalaryManageSystem/SalaryManageSystem/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1782">
+              <caret line="81" column="23" lean-forward="true" selection-start-line="81" selection-start-column="23" selection-end-line="81" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SalaryManageSystem/SalaryManageSystem/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="770">
+              <caret line="37" column="40" selection-start-line="37" selection-start-column="40" selection-end-line="37" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="das://28909bdc-e158-40ac-bea0-e0bcb177e8b7/schema/lqy/table/app_people">
           <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
             <state>
               <filtering enabled="true" />
@@ -138,8 +165,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SalaryManageSystem/app/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="494">
-              <caret line="19" column="50" selection-start-line="19" selection-start-column="50" selection-end-line="19" selection-end-column="50" />
+            <state relative-caret-position="88">
+              <caret line="6" column="37" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
               </folding>
@@ -148,23 +175,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SalaryManageSystem/templates/main.html">
+        <entry file="file://$PROJECT_DIR$/SalaryManageSystem/templates/insert_people.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="461">
-              <caret line="54" column="91" selection-start-line="54" selection-start-column="91" selection-end-line="54" selection-end-column="91" />
-              <folding>
-                <element signature="n#style#0;n#li#1;n#ul#0;n#div#0;n#nav#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#li#2;n#ul#0;n#div#0;n#nav#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="2002">
+              <caret line="91" column="52" selection-start-line="91" selection-start-column="52" selection-end-line="91" selection-end-column="52" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SalaryManageSystem/SalaryManageSystem/urls.py">
+        <entry file="file://$PROJECT_DIR$/SalaryManageSystem/app/migrations/0001_initial.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="215">
-              <caret line="32" column="44" selection-start-line="32" selection-start-column="44" selection-end-line="32" selection-end-column="44" />
+            <state relative-caret-position="484">
+              <caret line="22" column="14" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -183,9 +206,12 @@
     <findStrings>
       <find>people</find>
       <find>Salary</find>
+      <find>os</find>
+      <find>os.uname</find>
     </findStrings>
     <replaceStrings>
       <replace>salary</replace>
+      <replace>platform.uname()</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -213,29 +239,35 @@
         <option value="$USER_HOME$/AppData/Local/Temp/Rar$DIa3316.20488/bdmmspider.py" />
         <option value="$PROJECT_DIR$/SalaryManageSystem/templates/add2.html" />
         <option value="$PROJECT_DIR$/SalaryManageSystem/templates/login_error.html" />
-        <option value="$PROJECT_DIR$/SalaryManageSystem/SalaryManageSystem/testdb.py" />
-        <option value="$PROJECT_DIR$/SalaryManageSystem/app/models.py" />
         <option value="$PROJECT_DIR$/SalaryManageSystem/templates/login.html" />
         <option value="$PROJECT_DIR$/SalaryManageSystem/templates/find.html" />
-        <option value="$PROJECT_DIR$/SalaryManageSystem/templates/update_people.html" />
-        <option value="$PROJECT_DIR$/SalaryManageSystem/templates/succeed.html" />
+        <option value="$PROJECT_DIR$/SalaryManageSystem/templates/del_people.html" />
+        <option value="$PROJECT_DIR$/SalaryManageSystem/templates/register.html" />
+        <option value="$PROJECT_DIR$/SalaryManageSystem/templates/change_ps.html" />
+        <option value="$PROJECT_DIR$/SalaryManageSystem/app/models.py" />
         <option value="$PROJECT_DIR$/SalaryManageSystem/templates/insert_people.html" />
         <option value="$PROJECT_DIR$/SalaryManageSystem/templates/show_every_people.html" />
-        <option value="$PROJECT_DIR$/SalaryManageSystem/templates/del_people.html" />
         <option value="$PROJECT_DIR$/SalaryManageSystem/templates/insert_salary.html" />
-        <option value="$PROJECT_DIR$/SalaryManageSystem/templates/register.html" />
-        <option value="$PROJECT_DIR$/SalaryManageSystem/templates/main.html" />
-        <option value="$PROJECT_DIR$/SalaryManageSystem/templates/change_ps.html" />
-        <option value="$PROJECT_DIR$/SalaryManageSystem/SalaryManageSystem/urls.py" />
         <option value="$PROJECT_DIR$/SalaryManageSystem/templates/show_every_salary.html" />
-        <option value="$PROJECT_DIR$/SalaryManageSystem/SalaryManageSystem/view.py" />
+        <option value="$PROJECT_DIR$/SalaryManageSystem/templates/main.html" />
+        <option value="$PROJECT_DIR$/SalaryManageSystem/templates/pay.html" />
+        <option value="$PROJECT_DIR$/SalaryManageSystem/test.py" />
+        <option value="$PROJECT_DIR$/SalaryManageSystem/SalaryManageSystem/testdb.py" />
+        <option value="$PROJECT_DIR$/SalaryManageSystem/input.py" />
+        <option value="$PROJECT_DIR$/SalaryManageSystem/SalaryManageSystem/input.py" />
+        <option value="$PROJECT_DIR$/SalaryManageSystem/SalaryManageSystem/urls.py" />
+        <option value="$PROJECT_DIR$/SalaryManageSystem/SalaryManageSystem/input_csv.py" />
+        <option value="$PROJECT_DIR$/SalaryManageSystem/templates/succeed.html" />
+        <option value="$PROJECT_DIR$/../cf/cf/spiders/cfspider.py" />
+        <option value="$PROJECT_DIR$/../cf/cf/get_ip/test_process.py" />
+        <option value="$PROJECT_DIR$/SalaryManageSystem/templates/update_people.html" />
         <option value="$PROJECT_DIR$/SalaryManageSystem/templates/update_salary.html" />
+        <option value="$PROJECT_DIR$/SalaryManageSystem/SalaryManageSystem/view.py" />
+        <option value="$USER_HOME$/Desktop/uwsgi-2.0.17.1/uwsgiconfig.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="3" />
-    <option name="y" value="57" />
     <option name="width" value="1890" />
     <option name="height" value="1080" />
   </component>
@@ -290,7 +322,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="DatabaseDriversLRU" value="mysql&#10;sqlserver" />
+    <property name="DatabaseDriversLRU" value="sqlserver&#10;mysql" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="database.console.LAST_STATE" value="false" />
@@ -298,15 +330,15 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\python\工资管理系统\SalaryManageSystem\templates" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\python\工资管理系统\SalaryManageSystem\SalaryManageSystem" />
       <recent name="D:\python\工资管理系统\SalaryManageSystem" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\python\工资管理系统\SalaryManageSystem\templates" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -321,8 +353,52 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.manage">
-    <configuration name="manage" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.test_process">
+    <configuration name="Get_proxy" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="工资管理系统" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../cf/cf/get_ip" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../cf/cf/get_ip/Get_proxy.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="input" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="工资管理系统" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SalaryManageSystem/SalaryManageSystem" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="D:\python\工资管理系统\SalaryManageSystem\SalaryManageSystem\input_csv.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="工资管理系统" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -335,7 +411,29 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SalaryManageSystem/manage.py" />
+      <option name="SCRIPT_NAME" value="D:\python\工资管理系统\SalaryManageSystem\input.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test_process" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="工资管理系统" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../cf/cf/get_ip" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../cf/cf/get_ip/test_process.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -368,8 +466,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.manage" />
+        <item itemvalue="Python.test_process" />
+        <item itemvalue="Python.Get_proxy" />
+        <item itemvalue="Python.input" />
         <item itemvalue="Python.testdb" />
+        <item itemvalue="Python.test" />
       </list>
     </recent_temporary>
   </component>
@@ -388,17 +489,20 @@
       <workItem from="1545626081798" duration="17802000" />
       <workItem from="1545652418182" duration="14696000" />
       <workItem from="1545698125234" duration="36319000" />
-      <workItem from="1545786513206" duration="5222000" />
+      <workItem from="1545786513206" duration="27595000" />
+      <workItem from="1545907793832" duration="8451000" />
+      <workItem from="1545958283154" duration="759000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="76459000" />
+    <option name="totallyTimeSpent" value="108042000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="735" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20129345" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16168149" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -422,20 +526,20 @@
       <window_info anchor="right" id="Database" order="4" weight="0.25383994" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19805983" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23605497" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3283582" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39966834" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5012126" side_tool="true" visible="true" weight="0.3283582" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5012126" side_tool="true" weight="0.3283582" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.3283582" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="bottom" id="Database Console" order="13" sideWeight="0.4987874" weight="0.3283582" />
@@ -461,170 +565,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa3316.31068/clear_stats.py" />
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa3316.16299/pipelines.py" />
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa3316.7919/bdmmspider.py" />
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa3316.20488/bdmmspider.py" />
-    <entry file="das://76ca9952-aa09-4166-83d1-861947c5b36b/schema/lqy/table/app_salasy" />
-    <entry file="das://76ca9952-aa09-4166-83d1-861947c5b36b/schema/lqy/table/app_people" />
-    <entry file="file://$PROJECT_DIR$/SalaryManageSystem/app/admin.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SalaryManageSystem/app/apps.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SalaryManageSystem/SalaryManageSystem/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="26">
-          <caret line="1" column="24" lean-forward="true" selection-start-line="1" selection-start-column="24" selection-end-line="1" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SalaryManageSystem/app/migrations/0001_initial.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-260">
-          <caret line="15" column="20" lean-forward="true" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/36521619-a4df-4a9b-934c-1dec158ea8a5/console.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="das://36521619-a4df-4a9b-934c-1dec158ea8a5/schema/lqy/table/app_salary" />
-    <entry file="das://36521619-a4df-4a9b-934c-1dec158ea8a5/schema/lqy/table/app_people" />
-    <entry file="file://$PROJECT_DIR$/SalaryManageSystem/templates/dels.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="26">
-          <caret line="5" column="7" lean-forward="true" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
-          <folding>
-            <element signature="n#style#0;n#input#1;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SalaryManageSystem/templates/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="26">
-          <caret line="5" column="7" lean-forward="true" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://36521619-a4df-4a9b-934c-1dec158ea8a5/schema/lqy/table/app_user" />
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/c2e786cf-3230-4673-9cde-b02f16f3cea4/console.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SalaryManageSystem/SalaryManageSystem/testdb.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="8" column="34" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
-          <folding>
-            <element signature="e#23#59#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/公管/python-django-web/app/models.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/公管/python-django-web/myapp/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
-          <folding>
-            <element signature="e#617#658#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SalaryManageSystem/app/views.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SalaryManageSystem/app/tests.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SalaryManageSystem/templates/find.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="82" column="101" selection-start-line="30" selection-end-line="82" selection-end-column="101" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/公管/python-django-web/app/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-390">
-          <caret line="297" column="27" lean-forward="true" selection-start-line="297" selection-start-column="27" selection-end-line="297" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SalaryManageSystem/SalaryManageSystem/wsgi.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SalaryManageSystem/templates/succeed.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="4" column="15" lean-forward="true" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SalaryManageSystem/templates/insert_people.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="80" column="111" selection-start-line="80" selection-start-column="111" selection-end-line="80" selection-end-column="111" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SalaryManageSystem/templates/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="26">
-          <caret line="25" column="24" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SalaryManageSystem/templates/hello.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SalaryManageSystem/templates/edit.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SalaryManageSystem/templates/print.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SalaryManageSystem/templates/del_people.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="68" column="20" lean-forward="true" selection-start-line="68" selection-start-column="20" selection-end-line="68" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SalaryManageSystem/templates/add2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="9" column="20" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="20" />
-          <folding>
-            <element signature="n#style#0;n#input#7;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SalaryManageSystem/templates/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="57" column="27" selection-start-line="57" selection-start-column="20" selection-end-line="57" selection-end-column="27" />
-          <folding>
-            <element signature="n#style#0;n#input#0;n#p#0;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#0;n#p#1;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/SalaryManageSystem/templates/register.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1274">
@@ -638,23 +578,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SalaryManageSystem/SalaryManageSystem/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2132">
-          <caret line="82" column="27" selection-start-line="78" selection-start-column="9" selection-end-line="83" selection-end-column="21" />
-        </state>
-      </provider>
+    <entry file="das://c2e786cf-3230-4673-9cde-b02f16f3cea4/schema/lqy/table/app_user" />
+    <entry file="das://c2e786cf-3230-4673-9cde-b02f16f3cea4/schema/lqy/table/app_salary" />
+    <entry file="file://$PROJECT_DIR$/SalaryManageSystem/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="das://c2e786cf-3230-4673-9cde-b02f16f3cea4/schema/lqy/table/app_user">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
+    <entry file="das://c2e786cf-3230-4673-9cde-b02f16f3cea4/schema/lqy/table/app_people" />
+    <entry file="file://$PROJECT_DIR$/SalaryManageSystem/manage.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SalaryManageSystem/app/apps.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SalaryManageSystem/templates/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="57" column="27" selection-start-line="57" selection-start-column="20" selection-end-line="57" selection-end-column="27" />
+          <folding>
+            <element signature="n#style#0;n#input#0;n#p#0;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#p#1;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/SalaryManageSystem/templates/change_ps.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1222">
+        <state relative-caret-position="525">
           <caret line="47" column="38" selection-start-line="47" selection-start-column="38" selection-end-line="47" selection-end-column="38" />
           <folding>
             <element signature="n#style#0;n#input#0;n#p#0;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -663,65 +612,121 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SalaryManageSystem/templates/login_error.html">
+    <entry file="file://$PROJECT_DIR$/SalaryManageSystem/templates/del_people.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="546">
-          <caret line="21" column="28" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
+        <state relative-caret-position="130">
+          <caret line="68" column="20" selection-start-line="68" selection-start-column="20" selection-end-line="68" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SalaryManageSystem/templates/show_every_people.html">
+    <entry file="file://$PROJECT_DIR$/SalaryManageSystem/templates/dels.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="61" selection-start-line="61" selection-end-line="65" selection-end-column="34" />
+        <state relative-caret-position="130">
+          <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
           <folding>
-            <element signature="n#style#0;n#p#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#p#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#1;n#p#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#table#0;n#body#2;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#body#2;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#1;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SalaryManageSystem/templates/update_people.html">
+    <entry file="file://$PROJECT_DIR$/SalaryManageSystem/templates/edit.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="107">
-          <caret line="27" column="4" lean-forward="true" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="20" />
-          <folding>
-            <element signature="n#style#0;n#input#0;n#td#0;n#form#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="234">
+          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="das://c2e786cf-3230-4673-9cde-b02f16f3cea4/schema/lqy/table/app_salary">
+    <entry file="file://$PROJECT_DIR$/SalaryManageSystem/templates/hello.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/c5e36182-f62b-4c0f-856a-5d3c9b50d0b4/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/28909bdc-e158-40ac-bea0-e0bcb177e8b7/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SalaryManageSystem/app/tests.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="das://28909bdc-e158-40ac-bea0-e0bcb177e8b7/schema/lqy/table/app_user">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SalaryManageSystem/app/models.py">
+    <entry file="file://$PROJECT_DIR$/SalaryManageSystem/templates/print.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SalaryManageSystem/templates/pay.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="19" column="50" selection-start-line="19" selection-start-column="50" selection-end-line="19" selection-end-column="50" />
+        <state relative-caret-position="227">
+          <caret line="33" column="39" selection-start-line="33" selection-start-column="39" selection-end-line="33" selection-end-column="39" />
           <folding>
-            <element signature="e#0#28#0" expanded="true" />
+            <element signature="n#style#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SalaryManageSystem/SalaryManageSystem/urls.py">
+    <entry file="file://$PROJECT_DIR$/SalaryManageSystem/input.py" />
+    <entry file="file://D:/middlewares/customProxy.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="32" column="44" selection-start-line="32" selection-start-column="44" selection-end-line="32" selection-end-column="44" />
+        <state>
+          <folding>
+            <element signature="e#0#42#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../thread and process/XC gevent.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../aiohttp/aiohttp_test1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SalaryManageSystem/templates/show_every_people.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="68" column="44" lean-forward="true" selection-start-line="68" selection-start-column="41" selection-end-line="68" selection-end-column="44" />
+          <folding>
+            <element signature="n#style#0;n#p#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#p#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#p#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#1;n#p#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#body#1;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#form#0;n#body#2;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#1;n#form#0;n#body#2;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#2;n#form#0;n#body#2;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#3;n#form#0;n#body#2;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#4;n#form#0;n#body#2;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#table#0;n#body#2;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#body#2;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SalaryManageSystem/templates/succeed.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="2" column="47" selection-start-line="2" selection-start-column="47" selection-end-line="2" selection-end-column="47" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/SalaryManageSystem/templates/main.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="461">
-          <caret line="54" column="91" selection-start-line="54" selection-start-column="91" selection-end-line="54" selection-end-column="91" />
+        <state relative-caret-position="279">
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
           <folding>
             <element signature="n#style#0;n#li#1;n#ul#0;n#div#0;n#nav#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#li#2;n#ul#0;n#div#0;n#nav#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -729,10 +734,98 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../cf/cf/get_ip/Get_proxy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="9" column="10" lean-forward="true" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SalaryManageSystem/templates/login_error.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="10" column="6" lean-forward="true" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../thread and process/async_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../cf/cf/spiders/cfspider.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../thread and process/tttt.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#22#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://28909bdc-e158-40ac-bea0-e0bcb177e8b7/schema/lqy/table/app_salary">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../thread and process/zhengze.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../cf/cf/get_ip/test_process.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="16" column="63" selection-start-line="16" selection-start-column="63" selection-end-line="16" selection-end-column="63" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../aiohttp/Semaphore_test1.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://D:/别人的python代码/bilibili-user/bilibili_user.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="34" selection-start-line="34" selection-end-line="40" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SalaryManageSystem/templates/insert_salary.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8">
+          <caret line="79" column="13" selection-start-line="79" selection-start-column="13" selection-end-line="79" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/SalaryManageSystem/templates/show_every_salary.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="617">
-          <caret line="58" column="39" selection-start-line="58" selection-start-column="39" selection-end-line="58" selection-end-column="39" />
+        <state relative-caret-position="-8">
+          <caret line="69" column="19" selection-start-line="69" selection-start-column="19" selection-end-line="69" selection-end-column="19" />
           <folding>
             <element signature="n#style#0;n#p#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -741,40 +834,108 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SalaryManageSystem/SalaryManageSystem/view.py">
+    <entry file="file://$PROJECT_DIR$/SalaryManageSystem/templates/update_people.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="329">
-          <caret line="131" column="24" lean-forward="true" selection-start-line="131" selection-start-column="24" selection-end-line="131" selection-end-column="24" />
+        <state relative-caret-position="-8">
+          <caret line="42" column="59" selection-start-line="42" selection-start-column="59" selection-end-line="42" selection-end-column="87" />
           <folding>
-            <element signature="e#24#60#0" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#td#0;n#form#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/SalaryManageSystem/templates/update_salary.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="47" column="54" selection-start-line="47" selection-start-column="54" selection-end-line="47" selection-end-column="54" />
+        <state relative-caret-position="-8">
+          <caret line="53" column="5" selection-start-line="53" selection-start-column="5" selection-end-line="53" selection-end-column="5" />
           <folding>
             <element signature="n#style#0;n#table#0;n#form#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SalaryManageSystem/__init__.py">
+    <entry file="file://$PROJECT_DIR$/SalaryManageSystem/SalaryManageSystem/view.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2401">
+          <caret line="183" column="39" lean-forward="true" selection-start-line="183" selection-start-column="39" selection-end-line="183" selection-end-column="39" />
+          <folding>
+            <element signature="e#24#60#0" expanded="true" />
+            <element signature="e#433#1123#0" />
+            <element signature="e#1148#1330#0" />
+            <element signature="e#2843#3811#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SalaryManageSystem/SalaryManageSystem/wsgi.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="das://c2e786cf-3230-4673-9cde-b02f16f3cea4/schema/lqy/table/app_people">
+    <entry file="file://$PROJECT_DIR$/SalaryManageSystem/SalaryManageSystem/input_csv.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="21" column="45" selection-start-line="21" selection-start-column="45" selection-end-line="21" selection-end-column="45" />
+          <folding>
+            <element signature="e#23#33#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SalaryManageSystem/SalaryManageSystem/testdb.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="33" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SalaryManageSystem/SalaryManageSystem/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1782">
+          <caret line="81" column="23" lean-forward="true" selection-start-line="81" selection-start-column="23" selection-end-line="81" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SalaryManageSystem/SalaryManageSystem/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="770">
+          <caret line="37" column="40" selection-start-line="37" selection-start-column="40" selection-end-line="37" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://28909bdc-e158-40ac-bea0-e0bcb177e8b7/schema/lqy/table/app_people">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SalaryManageSystem/templates/insert_salary.html">
+    <entry file="file://$PROJECT_DIR$/SalaryManageSystem/app/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="94" column="54" selection-start-line="94" selection-start-column="54" selection-end-line="94" selection-end-column="54" />
+        <state relative-caret-position="88">
+          <caret line="6" column="37" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SalaryManageSystem/templates/insert_people.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2002">
+          <caret line="91" column="52" selection-start-line="91" selection-start-column="52" selection-end-line="91" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SalaryManageSystem/app/migrations/0001_initial.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="22" column="14" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/uwsgi-2.0.17.1/uwsgiconfig.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-154">
+          <caret line="7" column="30" lean-forward="true" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
         </state>
       </provider>
     </entry>

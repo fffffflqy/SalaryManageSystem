@@ -7,6 +7,7 @@ class People(models.Model):
     sex = models.CharField(max_length=16, null=False)
     year = models.IntegerField(max_length=16, null=False)
     job = models.CharField(max_length=16, null=False)
+    department = models.CharField(max_length=16, null=False)
 
 class salary(models.Model):
     id = models.AutoField(primary_key=True, null=False)
@@ -15,9 +16,8 @@ class salary(models.Model):
     Bonus = models.FloatField(max_length=20, null=False)
     fakuan = models.FloatField(max_length=20, null=False)
     Overtime_pay = models.FloatField(max_length=20, null=False)
+    note = models.CharField(max_length=20, null=True)
 
 class user(models.Model):
     user = models.CharField(primary_key=True, max_length=20, null=False)
-    # 1代表管理员 2代表普通用户
-    admin = models.IntegerField(max_length=2, null=False)
     password = models.CharField(max_length=20, null=False)

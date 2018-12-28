@@ -15,14 +15,16 @@ Including another URLconf
 """
 from django.urls import path
 from django.contrib import admin
-from . import view, testdb
+from . import view, testdb, input_csv
 
 
 urlpatterns = [
     path('', view.login),
     path('admit/', admin.site.urls),
     path('hello/', view.hello),
-    path('testdb/', testdb.testdb),
+    path('input_people/', input_csv.input_people),
+    path('input_salary/', input_csv.input_salary),
+    # path('testdb/', testdb.testdb),
     path('login/', view.login),
     path('test/', view.test),
     path('main/', view.main, name='main'),
@@ -37,5 +39,6 @@ urlpatterns = [
     path('del_people/', view.dels),
     path('insert_salary/', view.insert_salary),
     path('register/', view.register),
-    path('change_ps/', view.change_ps)
+    path('change_ps/', view.change_ps),
+    path('pay/', view.pay)
 ]
